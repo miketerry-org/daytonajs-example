@@ -1,6 +1,8 @@
-import Dylan from "dylanjs";
+/* app/application.js */
 
-class Application extends Dylan.Application {
+import daytona from "daytonajs";
+
+class Application extends daytona.Application {
   // … you can add your methods or overrides here
 }
 

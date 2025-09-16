@@ -1,5 +1,7 @@
-import Dylan from "dylanjs";
+// application_controller.js:
 
-class ApplicationController extends Dylan.ActiveController {}
+import daytona from "daytonajs";
+
+class ApplicationController extends daytona.Controller {}
 
 export default ApplicationController;
