@@ -1,7 +1,0 @@
-// application_service.js:
-
-import daytona from "daytonajs";
-
-class ApplicationService extends daytona.Service {}
-
-export default ApplicationService;

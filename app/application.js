@@ -1,9 +1,10 @@
-/* app/application.js */
+// application.js:
 
-import daytona from "daytonajs";
+"use strict";
 
-class Application extends daytona.Application {
-  // … you can add your methods or overrides here
-}
+// load all necessary modules
+const daytona = require("daytonajs");
 
-export default Application;
+class Application extends daytona.Application {}
+
+module.exports = Application;
