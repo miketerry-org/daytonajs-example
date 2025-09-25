@@ -1,0 +1,23 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "daytonajs": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "dev": "NODE_ENV=development node index.js",
+    "dev:watch": "NODE_ENV=development nodemon --watch lib --watch public --watch views --ext js,hbs,json index.js",
+    "debug": "NODE_ENV=debug nodemon index.js",
+    "encrypt": "./_encrypt_all.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
